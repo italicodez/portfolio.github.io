@@ -5,25 +5,25 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    title: "Full Stack Web Developer",
+    cardImage: "assets/images/experience-page/upwork.png",
+    place: "Upwork",
+    time: "(Jun, 2022 - present)",
+    desp: "<li>Open to offers</li><li>Full time availability</li><li>100% remote position</li>",
   },
   {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    title: "Software Engineer",
+    cardImage: "assets/images/experience-page/appspring.png",
+    place: "AppSpring",
+    time: "(Sep, 2019 - Apr, 2022)",
+    desp: "<li>Led and managed a team of 12 developers and designers to create efficient, effective and visually asethetic websites for 60,000+ clients.</li><li>Oversaw concept mock-up and wireframe design to further client satisfaction by 35%.</li><li>Developed customer-specific design framework, reducing site production time by 4 days.</li><li>Collaborated with VP of sales to create digital marketing designs that led to an average 20,000+ additional clients per month.</li><li>Led bi-weekly standup to celebrate team successes, address weaknesses and assign tasks.</li>",
   },
   {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    title: "Software Engineer Intern",
+    cardImage: "assets/images/experience-page/appspring.png",
+    place: "AppSpring",
+    time: "(Feb, 2019 - Jun, 2019)",
+    desp: "<li>Translated designs and wireframes into high-quality code using HTML, CSS, and JavaScript</li><li>Worked closely with developers, designers and other cross-functional teams to drive innovation and maximize conversions by 40%</li><li>Provided input to leaders 3 times a year about the future development of new features.</li><li>Ensured the technical feasibility of UI/UX designs.</li>",
   },
 ];
 
@@ -62,29 +62,18 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "GirlScript Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/1.jpg",
+    title: "Letto Summer Of Code 2020",
+    cardImage: "assets/images/experience-page/letto.png",
     description:
-      "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
+      "Responsible for handling the projects Letto App and Letto Website Boilerplate.",
   },
   {
-    title: "StudentCode-in 2020",
-    cardImage: "assets/images/experience-page/2.jpg",
+    title: "Codelia Project",
+    cardImage: "assets/images/experience-page/codelia.jpg",
     description:
-      "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
+      "Responsible for handling Codelia design studio project development.",
   },
-  {
-    title: "PClub Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/3.jpg",
-    description:
-      "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
-  },
-  {
-    title: "Hakin-Codes",
-    cardImage: "assets/images/experience-page/4.jpg",
-    description:
-      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
-  },
+
 ];
 
 const showCards = () => {
@@ -111,12 +100,6 @@ document.addEventListener("DOMContentLoaded", showCards);
 const hackathonsection = document.querySelector(".hackathon-section");
 const mentor = [
   {
-    title: "The Uplift Project",
-    subtitle: "Mentor",
-    image: "assets/images/experience-page/uplift.png",
-    desp: "I would be responsible for guiding 100s of participants across the globe in their first steps towards Applied Data Science and building end-to-end machine learning projects.",
-  },
-  {
     title: "ULHacks",
     subtitle: "Judge",
     image: "assets/images/experience-page/ulhacks.png",
@@ -129,22 +112,10 @@ const mentor = [
     desp: "WaffleHacks 2021 is an upcoming 48-hour student-organized hackathon with an aim to bring technical solutions to local communities and small businesses.",
   },
   {
-    title: "Elevate Tech",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/elevate.png",
-    desp: "Elevate Hacks is an upcoming all-female virtual hackathon coming from AUGUST 14th to 15th.",
-  },
-  {
     title: "PitchTeen",
     subtitle: "Judge",
     image: "assets/images/experience-page/pitchteen.png",
     desp: "PitchTeen 2.0 was a tech startup competition for female and non-binary communities in high school and college from all over the world with an aim to create a safe and encouraging place for women to help them explore tech and business fields.",
-  },
-  {
-    title: "Hack-A-Solution",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/hackasolution.png",
-    desp: "Hack-a-Solution 2021 is a 24 hour long hackathon organized by Frisco students to raise awareness of world issues through technology.",
   },
   {
     title: "UniGlobe Hacks",
@@ -163,18 +134,6 @@ const mentor = [
     subtitle: "Judge",
     image: "assets/images/experience-page/neo.png",
     desp: "NeoHacks is an upcoming 48-hour hackathon taking place July 23-25, 2021 where hundreds of students from around the world will come together virtually to learn new skills, meet new friends, and build awesome projects. We provide beginner-friendly workshops, mentorship, fun games, and more.",
-  },
-  {
-    title: "Mission Inspired",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/mission.png",
-    desp: "InspireEd Hacks is a nationwide initiative organized by the student-for-student nonprofit, Mission InspirEd, challenging students ages 10-18 to synthesize their creativity and coding experience into a product beneficial to the educational community.",
-  },
-  {
-    title: "Hack3",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/hack3.png",
-    desp: "Hack3 2021 is an upcoming global online hackathon that aims to enable high school students to learn computer science, with a broader message of (everyone can code) targeting underrepresented demographics to improve diversity and inclusion of individuals in the computer technology space.",
   },
   {
     title: "JITHack",
