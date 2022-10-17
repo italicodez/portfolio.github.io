@@ -9,20 +9,27 @@ const exp = [
     cardImage: "assets/images/experience-page/upwork.png",
     place: "Upwork",
     time: "(Jun, 2022 - present)",
-    desp: "<li>Open to offers</li><li>Full time availability</li><li>100% remote position</li>",
+    desp: "<li>Design, implement and monitor web pages and sites for continuous improvement in fast-paced environment</li><li>Develop website from scratch, utilizing JavaScript and PHP</li><li>Building JavaScript / MERN stack applications and showcasing them</li><li>Plan and construct relational / non-relational database from scratch, utilizing MySQL and MongoDB</li><li>Set-up and integrate website and database along with domain name server using Amazon Web Services</li><li>My role also included client prospection, defining the client’s needs, preparing the work scope as well as client follow-up</li>",
+  },
+  {
+    title: "Senior Software Engineer",
+    cardImage: "assets/images/experience-page/appspring.png",
+    place: "AppSpring",
+    time: "(Sep, 2021 - Apr, 2022)",
+    desp: "<li>Led and managed a team of 12 developers and designers to create efficient, effective and visually asethetic websites for 60,000+ clients</li><li>Oversaw concept mock-up and wireframe design to further client satisfaction by 35%</li><li>Developed customer-specific design framework, reducing site production time by 4 days</li><li>Collaborated with VP of sales to create digital marketing designs that led to an average 20,000+ additional clients per month</li><li>Led bi-weekly standup to celebrate team successes, address weaknesses and assign tasks</li>",
   },
   {
     title: "Software Engineer",
     cardImage: "assets/images/experience-page/appspring.png",
     place: "AppSpring",
-    time: "(Sep, 2019 - Apr, 2022)",
-    desp: "<li>Led and managed a team of 12 developers and designers to create efficient, effective and visually asethetic websites for 60,000+ clients.</li><li>Oversaw concept mock-up and wireframe design to further client satisfaction by 35%.</li><li>Developed customer-specific design framework, reducing site production time by 4 days.</li><li>Collaborated with VP of sales to create digital marketing designs that led to an average 20,000+ additional clients per month.</li><li>Led bi-weekly standup to celebrate team successes, address weaknesses and assign tasks.</li>",
+    time: "(May, 2020 - Jun, 2021)",
+    desp: "<li>Work as part of a creative and technically excellent team</li><li>Great career development opportunities</li><li>Experience developing well-organized, maintainable, object-oriented, unit-tested code in PHP and JavaScript</li><li>Experience developing highly scalable and composable RESTful APIs (JSON, API design, HATEOAS, Swagger, Hypermedia, JSON-LD, HAL)</li><li>Experience with MySQL (relational concepts, SQL, connection pooling. ER diagrams)</li><li>Working experience with JIRA and Bitbucket (as well as the Git code repository, including code-reviewing tools)</li>",
   },
   {
-    title: "Software Engineer Intern",
+    title: "Programming Intern",
     cardImage: "assets/images/experience-page/appspring.png",
     place: "AppSpring",
-    time: "(Feb, 2019 - Jun, 2019)",
+    time: "(Mar, 2019 - Nov, 2019)",
     desp: "<li>Translated designs and wireframes into high-quality code using HTML, CSS, and JavaScript</li><li>Worked closely with developers, designers and other cross-functional teams to drive innovation and maximize conversions by 40%</li><li>Provided input to leaders 3 times a year about the future development of new features.</li><li>Ensured the technical feasibility of UI/UX designs.</li>",
   },
 ];
@@ -152,12 +159,6 @@ const mentor = [
     subtitle: "Mentor",
     image: "assets/images/experience-page/citro.png",
     desp: "Citro Hacks 2021 is an upcoming all-inclusive online hackathon organized by Citro Tech, a student led organization dedicated to empowering minorities in the tech field</li>",
-  },
-  {
-    title: "NHacks",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/nhacks.png",
-    desp: "NHacks VI was a hackathon that aimed to encourage students everywhere to develop skills in computer science by creating tangible products that they're proud of. It initially started as Michigan's largest high school hackathon.",
   },
 ];
 

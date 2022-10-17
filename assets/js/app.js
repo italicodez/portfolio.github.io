@@ -158,7 +158,9 @@ let footer = $(`
     
 
     <div class="rounded-social-buttons tag">
-
+    <a class="socialicon github" href="https://drive.google.com/file/d/16NyDxYsouAu4DQ1os1GTF-U7_ZgImTgc/view?usp=sharing" target="_blank" rel="author">
+    <i class="fab fa-kaggle"></i>
+    </a>
     <a class="social-button github" href="https://github.com/juanrojas329" target="_blank">
     <!-- SVG code for Github icon -->
     <svg class="github-icon-footer" width="45px" height="45px" viewBox="0 0 300 300">
